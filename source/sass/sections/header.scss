@@ -1,0 +1,95 @@
+header{
+  &.velo{
+    background: rgba(2, 2, 2, 0.79);
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 6;
+    transition: all 0.5s ease;
+  }
+  .box_header{
+    width: 93%;
+    height: 150px;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    z-index: 6;
+    .burguer{
+      cursor:pointer;
+      width: 70px;
+      position: relative;
+      transition: all 0.5s ease;
+      &:before{
+        content:'';
+        width: 100%;
+        height: 60px;
+        top: -1px;
+        position: absolute;
+        background: linear-gradient(321deg, rgba(255, 255, 255, 0) 30%, #FFFFFE 39%, rgba(255, 255, 255, 0) 48%);
+        background-size: 600% 500%;
+        animation: lineCat 1s linear infinite;
+      }
+      .line{
+        margin-bottom: 6px;
+        height:4px;
+        background-color: #000000;
+        transition: all 0.2s ease;
+      }
+      .linesE{
+        display: flex;
+        justify-content: space-between;
+        transition: opacity 0.2s ease;
+        .line{
+          width: 20px;
+          &:first-child{
+            width: 10px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        &.linesBurguer{
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+      }
+      .linesH{
+        .line:last-child{
+          width: 50px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+    .burguer.transform {
+      transform: rotate(90deg);
+      width: 60px;
+      .line{
+        margin-bottom: 8px;
+        background-color: #fff;
+      }
+      .linesH{
+        .line:last-child{
+          width: 60px;
+        }
+      }
+       &:before{
+        display: none;
+      }
+      // .line:first-child{
+      //   width: 18px;
+      //   margin: 6px auto;
+      // }
+      // .line:nth-child(2){
+      //   width: 30px;
+      //   margin: 6px auto;
+      // }
+    }
+  }
+}
+@keyframes lineCat{
+  0%{background-position:76% 100%}
+  100%{background-position:25% 0%}
+}

@@ -1,0 +1,143 @@
+.mlogogreen, .mlogo, .install, .tech, .registro,
+.solicitud, .message, .person, .phone, .pointer,
+.check, .scroll, .phonegray, .messagegray, .iconphone,
+.pencil, .persongray, .greepencil, .mouse, .pointergray,
+.smart, .icon-smart {
+  display: inline-block;
+  background: url( $url +'/documents/80379/7310464/sprite.png/f96c5fde-0206-44f4-93f9-4ce505bd3ac2?t=1530198203735') no-repeat; 
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.mlogogreen {
+  background-position: -0px -0px;
+  width: 71px;
+  height: 52px;
+}
+
+.mlogo {
+  background-position: -0px -52px;
+  width: 70px;
+  height: 52px;
+}
+
+.install {
+  background-position: -0px -104px;
+  width: 49px;
+  height: 63px;
+}
+
+.tech {
+  background-position: -0px -167px;
+  width: 44px;
+  height: 55px;
+}
+
+.registro {
+  background-position: -0px -222px;
+  width: 42px;
+  height: 56px;
+}
+
+.solicitud {
+  background-position: -0px -278px;
+  width: 36px;
+  height: 51px;
+}
+
+.message {
+  background-position: -36px -278px;
+  width: 33px;
+  height: 32px;
+}
+
+.person {
+  background-position: -36px -310px;
+  width: 33px;
+  height: 32px;
+}
+
+.phone {
+  background-position: -0px -329px;
+  width: 33px;
+  height: 32px;
+}
+
+.pointer {
+  background-position: -33px -342px;
+  width: 33px;
+  height: 32px;
+}
+
+.check {
+  background-position: -43px -167px;
+  width: 24px;
+  height: 23px;
+}
+
+.scroll {
+  background-position: -49px -104px;
+  width: 22px;
+  height: 34px;
+}
+
+.phonegray {
+  background-position: -49px -138px;
+  width: 18px;
+  height: 18px;
+}
+
+.messagegray {
+  background-position: -43px -190px;
+  width: 18px;
+  height: 11px;
+}
+
+.iconphone {
+  background-position: -44px -201px;
+  width: 16px;
+  height: 17px;
+}
+
+.pencil {
+  background-position: -44px -218px;
+  width: 15px;
+  height: 16px;
+}
+
+.persongray {
+  background-position: -41px -233px;
+  width: 16px;
+  height: 17px;
+}
+
+.greepencil {
+  background-position: -57px -234px;
+  width: 14px;
+  height: 14px;
+}
+
+.mouse {
+  background-position: -57px -248px;
+  width: 14px;
+  height: 23px;
+}
+
+.pointergray {
+  background-position: -41px -250px;
+  width: 16px;
+  height: 19px;
+}
+
+.smart {
+  background-position: -0px -361px;
+  width: 12px;
+  height: 18px;
+}
+
+.icon-smart {
+  background-position: -61px -190px;
+  width: 10px;
+  height: 22px;
+}
